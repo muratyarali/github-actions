@@ -16,6 +16,6 @@ jobs:
 
       - name: Python command
         run: |
-        import platform
-        print(platform.processor())
-        shell: python
+          import platform
+          print(platform.processor())
+          shell: python
