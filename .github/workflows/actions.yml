@@ -10,7 +10,7 @@ jobs:
       - name: List files
         run: |
           pwd
-          ls
+          ls -al
 
       - name: Simple JS Action
         id: greet
