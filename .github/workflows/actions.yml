@@ -11,7 +11,6 @@ jobs:
         run: |
           pwd
           ls -al
-          git fetch
           echo $GITHUB_SHA
           echo $GITHUB_REPOSITORY
           echo $GITHUB_WORKSPACE
