@@ -3,7 +3,7 @@ name: Actions Workflow
 # on: [push, pull_request]
 
 on:
-  push:
+  pull_request:
     branches:
       - main
       - 'feature/*' # matches feature/featA, feature/featB, doesnt match feature/feat/A
