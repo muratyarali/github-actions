@@ -1,4 +1,4 @@
-name: Container
+name: docker compose process
 
 on: push
 
